@@ -1,0 +1,279 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Arial Unicode MS,Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	color: #000;
+	background-attachment: fixed;
+	background-color: #000;
+	background-image: url(http://www.mrpark.com.vn/Content/skins/images/background.jpg);
+background-position: top center; /*background-position-x: 50%;
+background-position-y: 0%;*/
+background-repeat: no-repeat;  /*background-repeat-x: no-repeat;
+background-repeat-y: no-repeat;*/
+background-size: cover;
+}
+.wap {
+	width: 1500px;
+	height: 800px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.banner {
+	position: relative;
+	height: 129px;
+}
+.logo {
+	width: 426px;
+	height: 113px;
+	top: 15px;
+	left: 5px;
+	position: absolute;
+}
+.flag {
+	width: 122px;
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	text-align: right;
+}
+.flag img {
+	margin-right: 10px;
+}
+.cart {
+	background: url(http://www.mrpark.com.vn/Content/skins/images/bt.png);
+	width: 132px;
+	height: 21px;
+	position: absolute;
+	top: 103px;
+	right: 0px;
+	text-align: center;
+	line-height: 21px;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform:  uppercase;
+}
+.cart a {
+	text-decoration: none;
+	color: #ffc425;
+}
+.menu_hor {
+	background-color: green;
+	width: 859px;
+	height: 40px;
+	position: absolute;
+	top: 95px;
+	right: 320px;
+	text-align: center;
+	border-radius: 17px;
+}
+
+.menu_hor a {
+	font-size: 14px;
+	color: #fff;
+	padding-right: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.menu_hor a:hover, .menu_hor .active{ color:#fdcf21;}
+
+.menu {
+	list-style-type: none;
+}
+.menu > li {
+	float: left;
+	font-size: 25px;
+	padding: 6px 37px;
+	position: relative;
+}
+.menu > li a {
+	padding: 10px 13px;
+	text-decoration: none;
+	color: white;
+}
+.menu > li a:active {
+	color: red;
+}
+.menu > li > ul {
+	position: absolute;
+	top: 39px;
+	left: 5px;
+	margin-top: 0;
+	list-style-type: none;
+	display: none;
+	z-index: 1;
+}
+.menu > li:hover > ul {
+	display: block;
+}
+.menu_ver a {
+	display: block;
+	padding: 5px 7px;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+.menu_ver a span {
+	font-size: 26px;
+	margin-top: 0px;
+	margin-right: 5px;
+	float: left;
+}
+.menu_ver .c1:hover {
+	background: #ed1c24;
+	border-radius: 20px;
+}
+.menu_ver .c2:hover {
+	background: #8dc63f;
+	border-radius: 20px;
+}
+.menu_ver .c3:hover {
+	background: #ed0080;
+	border-radius: 20px;
+}
+.conner4 {
+	border-radius: 4px;
+}
+.gioithieu {
+	overflow: hidden;
+	margin: 150px 0;
+}
+.gioithieu img {
+	width: 300px;
+	border-radius: 10px;
+}
+.noidung {
+	float: left;
+	height: 445px;
+	margin: 0px 60px;
+	background-color: #fff;
+	border-radius: 58px;
+}
+.nhahang {
+	width: 508px;
+	height: 196px;
+	background: url(http://www.mrpark.com.vn/Content/skins/images/welcome.png);
+	padding: 17x 13px;
+	border-radius: 58px;
+
+}
+.nhahang1 {
+	width: 508px;
+	height: 190px;
+	margin:  25px 6px;
+	border-radius: 38px;
+
+}
+.nhahang1 img  {
+	width: 200px;
+}
+.bwc {
+	font-size: 18px;
+    font-weight: bold;
+    padding: 13px 0 0px 30px;
+}
+.line {
+	margin: 20px 25px;
+}
+.more {
+	margin: -19px 30px;
+}
+.more  a , .more1 a {
+	text-decoration: none;
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 10px;
+    padding: 0 5px;
+    border-radius: 7px;
+}
+.pic {
+	margin: 23px 0 0 5px;
+    border: 1px solid #b2b2b4;
+    float: left;
+    border-radius: 15px;
+}
+.page {
+	width: 283px;
+	float: right;
+	margin: 50px 3px;
+}
+.ct {
+font-size: 16px;
+font-weight: bold;
+padding: 14px 0;
+}
+.more1 {
+	width: 65px;
+    height: 18px;
+    border: 1px solid;
+    border-radius: 16px;
+    margin: 10px 2px;
+}
+h2 {
+	color: red;
+}
+h1 {
+	padding-top: 10px;
+	text-align: center;
+}
+
+.content {
+	margin:150px 50px;
+	height: 500px;
+}
+
+.mon-an {
+	width: 28%;
+	height: 300px;
+	background-color: #ffffff;
+	float: left;
+	margin: 30px 35px;
+	border-radius: 50px 15px 50px 15px;
+}
+
+.mon-an img {
+	width: 330px;
+	height: 216px;
+	float: left;
+	padding: 30px 30px;
+}
+.name {
+	float: left;
+	margin: 0 15px;
+	text-transform: uppercase;
+}
+.count {
+	float: right;
+	margin-right: 35px;
+	text-transform: uppercase;
+}
+
+.footer {
+	width: 1000px;
+	height: 50px;
+	position: relative;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+.copy {
+	position: absolute;
+	right: 0px;
+	top: 450px;
+	width: 450px;
+	text-transform: uppercase;
+	text-align: right;
+}
+.online {
+	position: absolute;
+	width: 152px;
+	height: 30px;
+	top: 450px;
+	left: 100px;
+}
