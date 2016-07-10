@@ -1,124 +1,131 @@
 
+@media only screen and (min-width:320px){
+  a {
+    outline: none;
+    text-decoration: none!important
+  }
 
-a {
-  outline: none;
-  text-decoration: none!important
+  a:hover,
+  a:active,
+  a:visited {
+    text-decoration: none!important
+  }
+  ol,
+  ul {
+    list-style: none
+  }
+  .linkwrap--hover-line-bottom a,
+  .link--hover-line-bottom {
+    position: relative
+  }
+
+  .linkwrap--hover-line-bottom a:before,
+  .link--hover-line-bottom:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    width: 0;
+    height: 1px;
+    background: #94c618
+  }
+
+  .linkwrap--hover-line-bottom a:hover:before,
+  .link--hover-line-bottom:hover:before {
+    width: 100%;
+    right: 0
+  }
+
+  .linkwrap--hover-line-bottom-to-top a,
+  .link--hover-line-bottom-to-top {
+    position: relative
+  }
+
+  .linkwrap--hover-line-bottom-to-top a:before,
+  .link--hover-line-bottom-to-top:before {
+    content: "";
+    position: absolute;
+    bottom: -.5em;
+    right: 0;
+    transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    width: 100%;
+    height: 1px;
+    background: #94c618;
+    -ms-filter: "progid:dximagetransform.microsoft.alpha(opacity=0)";
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    opacity: 0;
+    visibility: hidden
+  }
+
+  .linkwrap--hover-line-bottom-to-top a:hover:before,
+  .link--hover-line-bottom-to-top:hover:before {
+    -ms-filter: "progid:dximagetransform.microsoft.alpha(opacity=100)";
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+    visibility: visible;
+    bottom: -1px
+  }
+  .menu--inline>li {
+    display: inline-block
+  }
+
+  /*header*/
+  .place {
+    margin-top: 10px;
+  }
+  .left {
+    text-align: center;
+  }
+  .ossvn--header {
+    background: #f3f3f3;
+    padding: 49px 0;
+    position: relative
+  }
+
+  .ossvn--header .dropdown--address {
+    margin-top: -10px;
+    //margin-left: -30px;
+    float: left
+  }
+
+  .ossvn--header .menu--header {
+    margin-top: 16px;
+    float: right;
+  }
+
+  .logo--header img {
+    margin-left: 9px;
+
+  }
+  .menu--header img {
+    margin-top: -3px;
+  }
+
+}
+@media only screen and (max-width: 360px) {
+  .menu>li:nth-child(7) {
+    visibility: hidden;
+  }
+  .key-menu {
+    margin-bottom: -100px;
+  }
+  .key-menu li{
+    text-decoration: underline;
+  }
 }
 
-a:hover,
-a:active,
-a:visited {
-  text-decoration: none!important
-}
-ol,
-ul {
-  list-style: none
-}
-.linkwrap--hover-line-bottom a,
-.link--hover-line-bottom {
-  position: relative
-}
-
-.linkwrap--hover-line-bottom a:before,
-.link--hover-line-bottom:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  right: 50%;
-  transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  -o-transition: all .4s ease;
-  -ms-transition: all .4s ease;
-  -webkit-transition: all .4s ease;
-  width: 0;
-  height: 1px;
-  background: #94c618
-}
-
-.linkwrap--hover-line-bottom a:hover:before,
-.link--hover-line-bottom:hover:before {
-  width: 100%;
-  right: 0
-}
-
-.linkwrap--hover-line-bottom-to-top a,
-.link--hover-line-bottom-to-top {
-  position: relative
-}
-
-.linkwrap--hover-line-bottom-to-top a:before,
-.link--hover-line-bottom-to-top:before {
-  content: "";
-  position: absolute;
-  bottom: -.5em;
-  right: 0;
-  transition: all .4s ease;
-  -moz-transition: all .4s ease;
-  -o-transition: all .4s ease;
-  -ms-transition: all .4s ease;
-  -webkit-transition: all .4s ease;
-  width: 100%;
-  height: 1px;
-  background: #94c618;
-  -ms-filter: "progid:dximagetransform.microsoft.alpha(opacity=0)";
-  -moz-opacity: 0;
-  -khtml-opacity: 0;
-  opacity: 0;
-  visibility: hidden
-}
-
-.linkwrap--hover-line-bottom-to-top a:hover:before,
-.link--hover-line-bottom-to-top:hover:before {
-  -ms-filter: "progid:dximagetransform.microsoft.alpha(opacity=100)";
-  -moz-opacity: 1;
-  -khtml-opacity: 1;
-  opacity: 1;
-  visibility: visible;
-  bottom: -1px
-}
-.menu--inline>li {
-  display: inline-block
-}
-
-/*header*/
-.place {
-  margin-top: 10px;
-}
-.left {
-  text-align: center;
-}
-.ossvn--header {
-  background: #f3f3f3;
-  padding: 49px 0;
-  position: relative
-}
-
-.ossvn--header .dropdown--address {
-  margin-top: -10px;
-  margin-left: -30px;
-  float: left
-}
-
-.ossvn--header .menu--header {
-  margin-top: 16px;
-  float: right
-}
-
-.menu--header img {
-  margin-top: -3px;
-}
-// @media only screen and (min-width:480px) {
-//   .add_to_cart_button {
-//     margin: 1px 114px;
-//     margin-bottom: 20px;
-//     margin-top: -30px;
-//     padding: 17px 8px;
-//     height: 55px;
-//     background: #94c618;
-//   }
-
-// }
-@media(max-width:1024px) {
+@media only screen and (min-width:1024px) {
 
   .js__menu_active .menumobile--overlay {
     position: fixed;
@@ -354,7 +361,8 @@ ul {
 
   .dropdown--address {
     position: relative;
-    z-index: 40
+    z-index: 40;
+    margin-left: -100px;
   }
 
   .dropdown--address .icon--map {
@@ -458,25 +466,9 @@ ul {
     margin-left: auto
   }
 }
-// @media (min-width:768px) {
-//   .container {
-//     width: 750px
-//   }
-// }
-
-// @media (min-width:992px) {
-//   .container {
-//     width: 970px
-//   }
-// }
-
-// @media (min-width:1200px) {
-//   .container {
-//     width: 1170px
-//   }
-// }
-@media(min-width:1025px) {
+@media only screen and (min-width:1025px) {
   .ossvn--header .logo--header {
+    margin: 0 auto;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -795,7 +787,7 @@ ul {
   }
   .row img {
     width: 100%;
-    height: 350px;
+    height: 300px;
     margin: 25px 0;
     margin-top: 0;
   }
@@ -1104,13 +1096,6 @@ ul {
   img {
     vertical-align: middle;
   }
-
-  .img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
-
   .img-thumbnail {
     padding: 4px;
     line-height: 1.428571429;
@@ -1279,6 +1264,7 @@ ul {
     -webkit-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+    padding: 0 30px;
   }
   .noo-farmer .noo-farmer-content {
     height: 290px;
@@ -1295,7 +1281,7 @@ ul {
 
   /*Gio hang*/
   .add_to_cart_button {
-    margin: 1px 110px;
+    margin: 0 auto;
     margin-bottom: 20px;
     margin-top: -30px;
     padding: 17px 8px;
