@@ -1258,7 +1258,7 @@
     transition: all 0.4s ease 0s;
   }
   .noo-farmer .noo-farmer-thumbnail img {
-    height: 400px;
+    height: 370px;
     position: relative;
     z-index: 1;
     -webkit-transition: all 0.4s ease 0s;
